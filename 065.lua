@@ -1,4 +1,4 @@
-# UnlockAll
+
 local constructingWeapon, viewingProfile = nil, nil
 local lastUsedWeapon = nil
 local equipped, favorites = {}, {}
