@@ -1,14 +1,7 @@
 -- 1. 配置
-local CORRECT_KEY = "P9jK2mR5Lq8vXn4bTy7W"
+
 local CORRECT_KEY = "Wz7vR4nKj9mP2qL5tB8x"
-local CORRECT_KEY = "fG6n9kMpLr2X7jTb4VzW"
-local CORRECT_KEY = "2mQy8vRn5bTxKj4NWp9Z"
-local CORRECT_KEY = "3mQy8vRn5bTxKj4NWp9Z"
-local CORRECT_KEY = "9kMpLr2X7jTbfG6n4VzW"
-local CORRECT_KEY = "8xZn5bTyKj4NWm3Z6vRt"
-local CORRECT_KEY = "4VzW9kMpLr2X7jTbfG6n"
-local CORRECT_KEY = "9nLm4kXp7jTw2zQsBv5R"
-local CORRECT_KEY = "Bv5R9nLm4kXp7jTw2zQs"
+
  -- 這裡設定你的金鑰
 
 -- 2. 驗證成功後的執行動作
