@@ -1,3 +1,32 @@
+local function applyBypass()
+    coroutine.wrap(function()
+        xpcall(function()
+            local function blockScript(obj)
+                if obj:IsA("LocalScript") or obj:IsA("ModuleScript") then
+                    local n=obj.Name:lower()
+                    for _,ac in pairs(niggers) do
+                        if n:find(ac) then xpcall(function() obj.Disabled=true end); break end
+                    end
+                end
+            end
+            for _,obj in pairs(game:GetDescendants()) do blockScript(obj) end
+            game.DescendantAdded:Connect(blockScript)
+        end)
+        xpcall(function()
+            local networkClient=game:GetService("NetworkClient")
+            if networkClient then
+                networkClient.ChildAdded:Connect(function(child)
+                    local n=child.Name:lower()
+                    if n:find("blackies") or n:find("femboys") or n:find("jews") then
+                        xpcall(function() child:Destroy() end)
+                    end
+                end)
+            end
+        end)
+    end)
+end
+
+
 local constructingWeapon, viewingProfile = nil, nil
 local lastUsedWeapon = nil
 local equipped, favorites = {}, {}
