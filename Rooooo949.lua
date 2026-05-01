@@ -1,6 +1,6 @@
 -- 1. 配置
 
-local CORRECT_KEY = "Wz7vR4nKj9mP2qL5tB8x"
+local CORRECT_KEY = "fG6n9kMpLr2X7jTb4VzW"
 
  -- 這裡設定你的金鑰
 
